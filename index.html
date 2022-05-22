@@ -1,95 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-
-  <title>Freddy (ingxfm)</title>
-  <link rel="stylesheet" href="css/styles2.css">
-  <link rel="icon" href="images/favicon.ico?v=2">
+  <title></title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img class="fit-picture" width="80" src="images/fre.png"></td>
-      <td><strong>
-          <h1>Freddy Báez</h1>
-        </strong>
-        <em>
-          <p>Python developer</p>
-        </em>
-        <p>Play with Python and doing CAD models as hobby</p>
-      </td>
-    </tr>
-  </table>
 
+  <div class="container_top">
+    <img class="cloud-top" src="images/images/jcloud3.png" alt="https://www.flaticon.com/free-icons/japanese">
+    <h1><span class="nynameis">My name is</span><br>Freddy</h1>
+    <h2>Python programmer</h2>
+    <img class="cloud-bottom" src="images/images/jcloud4.png" alt="https://www.flaticon.com/free-icons/japanese">
+    <img src="images/images/mountain.png" alt="mountain-img">
+  </div>
 
-  <hr size="5" noshade>
-  <h3>Projects</h3>
-  <ul>
-    <li>License plate detection (Python): <a href="https://github.com/ingxfm/license-plate-detection-raspberry-pi-3B-plus-OpenAlpr">demo</a></li>
-    <li>Robot painter (ABB robot language): <a href="https://github.com/ingxfm/painter-robot-squares-and-circles">demo</a></li>
-    <li>Nokia Snake game duplicate (Python): <a href="https://github.com/ingxfm/snake_game_nokia">demo</a></li>
-  </ul>
-  <hr size="5" noshade>
-  <h3>Work experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2020-present</td>
-        <td>1st level computer operator at IBM/Kyndryl (Ticketing tool support).</td>
-      </tr>
-      <tr>
-        <td>2018-2020</td>
-        <td>Formula student VSB-TUO Ostrava team: I have co-authored the 2019 Engineering Design report.</td>
-      </tr>
-      <tr>
-        <td>2015-2018</td>
-        <td>Visual/Dimensional inspection technician in Coal
-          power plant construction project: Inspection of incoming
-          material, piping, as well as follow up on pressure tests using ASTM,
-          ASME Standard specifications</td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <tr>
-        <td colspan="2">*<em>More info on call. Find the contacts below.</em></td>
-      </tr>
-    </tfoot>
-  </table>
-  <hr size="5" noshade>
-  <h3>Skills</h3>
-
-  <table cellspacing="10">
-
-    <tr>
-      <td>Python</td>
-      <td>★★★★☆</td>
-    </tr>
-
-    <tr>
-      <td>CAD PTC Creo</td>
-      <td>★★★★☆</td>
-    </tr>
-
-    <tr>
-      <td>Virtual commissioning</td>
-      <td>★★☆☆☆</td>
-    </tr>
-
-  </table>
-
-  <hr size="5" noshade>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contact.html">Contact me</a>
-  <a href=https://ftx.com/profile#a=9673379>FTX Crypto Exchange</a>
+  <div class="container_middle">
+    <div class="profile">
+      <img class="frepic" src="images/images/fre.png" alt="profile-pic">
+      <h2>Hello.</h2>
+      <p class="intro">I can help you to process data from APIs
+        with Python and Pandas. Furthermore, I can help you with
+        technical support/bug catching in Python code.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="pylogo" src="images/images/python.png" alt="python-logo">
+        <h3>Python</h3>
+        <p>
+        <ul>
+          <li>License plate detection (Python): <a href="https://github.com/ingxfm/license-plate-detection-raspberry-pi-3B-plus-OpenAlpr">demo</a></li>
+          <li>Nokia Snake game duplicate (Python): <a href="https://github.com/ingxfm/snake_game_nokia">demo</a></li>
+          <li>Robot painter (ABB robot language): <a href="https://github.com/ingxfm/painter-robot-squares-and-circles">demo</a></li>
+        </ul>
+        </p>
+      </div>
+      <div class="skill-row">
+        <img class="pandaslogo" src="images/images/pandas.png" alt="pandas-logo">
+        <h3>Pandas for Python</h3>
+        <p>
+        <ul>
+          <li>Weather data processing with Pandas: <a href="https://github.com/ingxfm/pandas_test">demo</a></li>
+          </p>
+        </ul>
+        </p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Let's have some buffalo wings and talk about it.</h3>
+      <p class="footer-python">Let's talk Python.</p>
+      <br>
+      <a class="btn" href="mailto:ingxfm@gmail.com">Contact me</a>
+    </div>
+  </div>
+  <br>
+  <div class="container_bottom">
+    <a class="footer-link" href="https://www.linkedin.com/in/freddy-b%C3%A1ez-mechatronics-computer-vision/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/ingxfm">GitHub</a>
+    <br>
+    <p class="footer-copyright">© <script>document.write(new Date().getFullYear())</script> Fre</p>
+  </div>
 
 </body>
 

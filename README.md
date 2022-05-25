@@ -6,4 +6,4 @@ Version 1
 
 References:
 
-Link: https://kerstinmartin.com/blog/copyright-notice
+How to update the copyright year: https://kerstinmartin.com/blog/copyright-notice

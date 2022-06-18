@@ -1,9 +1,9 @@
 # CV
 Link: https://ingxfm.github.io/cv/
 
-Version 1
-Version 2
-Version 3
+* Version 1
+* Version 2
+* Version 3 current
 
 References
 

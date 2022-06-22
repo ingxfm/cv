@@ -1,12 +1,12 @@
 /*****************IMPORTS*****************/
 /*****************TAGS*****************/
 body {
-  font-family: 'Montserrat';
+  font-family: 'Anek Malayalam';
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat';
+  font-family: 'Anek Malayalam';
   font-weight: 900;
 }
 
@@ -17,7 +17,7 @@ p {
 
 /* --Headings-- */
 .big-heading {
-  font-family: 'Montserrat';
+  font-family: 'Anek Malayalam';
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
@@ -116,13 +116,13 @@ p {
 }
 
 .features_text {
-  font: 'Montserrat';
+  font: 'Anek Malayalam';
   color: #8f8f8f;
   padding: 0 10%;
 }
 
 .features_text_value {
-  font: 'Montserrat';
+  font: 'Anek Malayalam';
   font-weight: 900;
 }
 
@@ -178,7 +178,7 @@ p {
 .slogan_bottom {
   font-weight: 900;
   font-size: 3.5rem;
-  font-family: 'Montserrat';
+  font-family: 'Anek Malayalam';
   line-height: 1.5;
 }
 
